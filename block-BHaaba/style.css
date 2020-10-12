@@ -1,0 +1,105 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; } /* HTML5 display-role reset for older browsers */ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; } body { line-height: 1; } ol, ul { list-style: none; } blockquote, q { quotes: none; } blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; } table { border-collapse: collapse; border-spacing: 0; }
+
+/*custom styles*/
+
+header
+{
+    height: 35px;
+    width: auto;
+    margin: 20px 30px 10px 20px;
+    padding: 20px;
+    background-color: black;
+}
+
+#brand
+{
+    font-size: 30px;
+    padding-left: 60px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: white;
+    float: left;
+}
+
+.navigation
+{
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    float: right;
+}
+
+a
+{
+    margin-right: 50px;
+}
+
+article
+{
+    height: 500px;
+    width: auto;
+    margin: 10px 20px 30px 20px;
+    padding: 20px;
+    background-color: rgba(242, 245, 102, 0.938);
+}
+
+.main-body
+{
+    float: inline-start;
+    height: 525px;
+    width: auto;
+    margin: 10px 30px 10px 20px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.line-up
+{
+    height: 500px;
+    width: auto;
+    margin: 5px 10px 10px 10px;
+    padding: 20px;
+    display: inline-block;
+}
+
+img
+{
+    height: 350px;
+    width: 400px;
+    margin: 0px;
+    padding: 10px;
+}
+
+p
+{
+    width: 400px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    line-height: 20px;
+    text-align: justify;
+    font-style: italic;
+}
+
+footer
+{
+    height: 15px;
+    width: auto;
+    margin: 5px 30px 5px 20px;
+    padding: 5px 10px 20px 10px;
+    background-color: black;
+}
+
+#last-one
+{
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-style: italic;
+}
