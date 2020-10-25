@@ -5,6 +5,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 header
 {
     display: inline-block;
+    position: fixed;
+    background-color: yellow;
 }
 
 #logo
@@ -37,6 +39,7 @@ a
 .article
 {
     display: inline-block;
+    margin-top: 100px;
     margin-bottom: 50px;
 }
 
